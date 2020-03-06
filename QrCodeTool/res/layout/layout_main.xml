@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView 
+        android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+   		android:text="BarCode Tool"
+   		android:textColor="#FFFFFF"
+   		android:textSize="45dp"/>
+	<Button
+	    android:id="@+id/btn_encoder"
+	    android:layout_width="wrap_content"
+   		android:layout_height="50dp"
+   		android:gravity="center"
+   		android:text="I want to Encode."
+   		android:layout_marginTop="50dp"/>
+	<Button
+	    android:id="@+id/btn_decoder"
+	    android:layout_width="wrap_content"
+   		android:layout_height="50dp"
+   		android:text="I want to Decode."
+   		android:layout_marginTop="10dp"/>
+</LinearLayout>
